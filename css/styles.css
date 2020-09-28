@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(71, 14, 19);
+    color: oldlace;
+}
+img {
+    float: right;
+}
+.colum {
+    float: right;
+    width: 750px;
+}
+.test-box {
+  border: 20px solid rgb(18, 154, 196);
+  padding: 100px;
+  margin: 100px;
+  color: navy;
+  background-color: oldlace;
+}
+.header {
+    text-align: center;
+}
+
+img {
+    float: none;
+    width: 350px;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(182, 158, 22);
+  }
+}
